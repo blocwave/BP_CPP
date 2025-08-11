@@ -1,0 +1,3 @@
+# [How to find the corresponding C++ API of a Blueprint API?](https://forums.unrealengine.com/t/how-to-find-the-corresponding-c-api-of-a-blueprint-api/470759)
+
+The quickest way I've found is to copy the Blueprint node and paste it into a text editor. For example here's a node I copied: Begin Object ...

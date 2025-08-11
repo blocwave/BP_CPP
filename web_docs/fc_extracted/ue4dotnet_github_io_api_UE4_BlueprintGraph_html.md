@@ -1,0 +1,3 @@
+# [Namespace UE4.BlueprintGraph](https://ue4dotnet.github.io/api/UE4.BlueprintGraph.html)
+
+Structure used to automatically convert blueprintcallable functions (that have blueprint parameter) calls (in bp graph) into their never versions (with class ...

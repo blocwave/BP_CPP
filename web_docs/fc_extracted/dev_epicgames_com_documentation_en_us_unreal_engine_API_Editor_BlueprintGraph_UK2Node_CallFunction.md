@@ -1,0 +1,3 @@
+# [UK2Node_CallFunction | Unreal Engine 5.6 Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Editor/BlueprintGraph/UK2Node_CallFunction)
+
+Creates all of the pins required to call a particular UFunction. Public function Virtual, UEdGraphPin *. CreateSelfPin ( const UFunction* Function ). Creates a ...

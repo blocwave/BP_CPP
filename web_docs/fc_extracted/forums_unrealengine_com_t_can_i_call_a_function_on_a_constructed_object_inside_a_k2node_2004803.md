@@ -1,0 +1,3 @@
+# [can i call a function on a constructed object inside a K2Node?](https://forums.unrealengine.com/t/can-i-call-a-function-on-a-constructed-object-inside-a-k2node/2004803)
+
+Yes, absolutely. You would spawn a UK2Node_CallFunction, set it up to call your member function, attach the pin for the object to the pin named 'self' and ...

@@ -1,0 +1,154 @@
+{
+  "ref_docs_to_fc_extracted": {
+    "UEdGraph_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_EdGraph_UEdGraph.md"
+    ],
+    "UEdGraphNode_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_EdGraph_UEdGraphNode.md"
+    ],
+    "UEdGraphPin.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_EdGraph_UEdGraphPin.md"
+    ],
+    "UEdGraphSchema_K2_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UEdGraphSchema_K2.md"
+    ],
+    "UK2Node_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_K2Node_UK2Node.md"
+    ],
+    "UK2Node_CallFunction_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node_CallFunction.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node_CallFunction___ctor.md"
+    ],
+    "UK2Node_Event_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node_Event.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_K2Node_Event.md"
+    ],
+    "UK2Node_Variable_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node_Variable.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node_Variable_HandleVariableRenamed.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_BlueprintGraph_UK2Node_Variable_RecreatePinForVariable.md"
+    ],
+    "UBlueprint_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_Engine_UBlueprint_part1.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_Engine_UBlueprint_part2.md"
+    ],
+    "UBlueprintGeneratedClass_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_Engine_UBlueprintGeneratedClass.md"
+    ],
+    "UBlueprintFunctionLibrary.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_Kismet_UBlueprintFunctionLibrary.md"
+    ],
+    "USimpleConstructionScript.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_Engine_USimpleConstructionScript.md"
+    ],
+    "USCS_Node.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Runtime_Engine_Engine_USCS_Node.md"
+    ],
+    "FKismetCompilerContext_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_KismetCompiler_FKismetCompilerContext_part1.md",
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_KismetCompiler_FKismetCompilerContext_part2.md"
+    ],
+    "FKismetCompiledStatement_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_KismetCompiler_FKismetCompiledStatement.md"
+    ],
+    "FKismetFunctionContext_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_KismetCompiler_FKismetFunctionContext.md"
+    ],
+    "FNodeHandlingFunctor_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_KismetCompiler_FNodeHandlingFunctor.md"
+    ],
+    "FKismetEditorUtilities.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_UnrealEd_Kismet2_FKismetEditorUtilities.md"
+    ],
+    "FBlueprintEditorUtils_API.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_API_Editor_UnrealEd_FBlueprintEditorUtils.md"
+    ],
+    "blueprint_compiler_overview.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_compiler_overview_for_blueprints_visual_scripting_in_unreal_engine.md"
+    ],
+    "KismetCompiler_Pipeline_Overview.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_compiler_overview_for_blueprints_visual_scripting_in_unreal_engine.md"
+    ],
+    "blueprint_technical_guide.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_technical_guide_for_blueprints_visual_scripting_in_unreal_engine.md"
+    ],
+    "K2Node_Examples_FAQ.md": [
+      "fc_extracted/forums_unrealengine_com_t_c_k2node_to_return_a_constant_1596994.md",
+      "fc_extracted/forums_unrealengine_com_t_can_i_call_a_function_on_a_constructed_object_inside_a_k2node_2004803.md",
+      "fc_extracted/forums_unrealengine_com_t_custom_blueprint_k2node_creation_node_doesnt_show_up_313714.md",
+      "fc_extracted/forums_unrealengine_com_t_how_do_i_add_a_node_to_a_blueprint_with_c_1186977.md",
+      "fc_extracted/forums_unrealengine_com_t_how_to_browse_api_documentation_389875.md",
+      "fc_extracted/forums_unrealengine_com_t_how_to_call_k2_node_without_manual_connection_pins_in_blueprints_156752.md",
+      "fc_extracted/forums_unrealengine_com_t_how_to_create_k2node_that_appears_as_multiple_node_entries_per_every_component_property_within_blueprint_770002.md",
+      "fc_extracted/forums_unrealengine_com_t_how_to_find_the_corresponding_c_api_of_a_blueprint_api_470759.md",
+      "fc_extracted/forums_unrealengine_com_t_how_to_overwrite_create_raw_ufunction_462078.md",
+      "fc_extracted/forums_unrealengine_com_t_suggestion_blueprint_to_c_convertion_documentation_need_23260.md",
+      "fc_extracted/s1t2_com_blog_brief_intro_k2nodes.md"
+    ],
+    "UE_5_2_Documentation.md": [
+      "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_unreal_engine_5_2_documentation.md"
+    ]
+  },
+  "fc_extracted_not_directly_mapped": [
+    "fc_extracted/blueprintue_com_blueprint_tckuwhkh.md",
+    "fc_extracted/community_gamedev_tv_t_unreal_engine_c_api_documentation_88049.md",
+    "fc_extracted/dev_epicgames_com_documentation_en_us_unreal_engine_unreal_engine_5_6_documentation.md",
+    "fc_extracted/ue4dotnet_github_io_api_UE4_BlueprintGraph_html.md"
+  ],
+  "statistics": {
+    "total_ref_docs": 25,
+    "total_fc_extracted": 44,
+    "fc_files_used": 40,
+    "fc_files_not_directly_used": 4,
+    "api_documentation_files": 26,
+    "forum_discussion_files": 10,
+    "technical_guide_files": 2,
+    "third_party_docs": 2,
+    "community_resources": 1,
+    "blog_posts": 1,
+    "version_specific_docs": 2
+  },
+  "categories": {
+    "graph_structure": [
+      "UEdGraph_API.md",
+      "UEdGraphNode_API.md",
+      "UEdGraphPin.md",
+      "UEdGraphSchema_K2_API.md"
+    ],
+    "k2_node_system": [
+      "UK2Node_API.md",
+      "UK2Node_CallFunction_API.md",
+      "UK2Node_Event_API.md",
+      "UK2Node_Variable_API.md",
+      "K2Node_Examples_FAQ.md"
+    ],
+    "blueprint_system": [
+      "UBlueprint_API.md",
+      "UBlueprintGeneratedClass_API.md",
+      "UBlueprintFunctionLibrary.md"
+    ],
+    "construction_scripts": [
+      "USimpleConstructionScript.md",
+      "USCS_Node.md"
+    ],
+    "compilation_system": [
+      "FKismetCompilerContext_API.md",
+      "FKismetCompiledStatement_API.md",
+      "FKismetFunctionContext_API.md",
+      "FNodeHandlingFunctor_API.md",
+      "KismetCompiler_Pipeline_Overview.md",
+      "blueprint_compiler_overview.md"
+    ],
+    "editor_utilities": [
+      "FKismetEditorUtilities.md",
+      "FBlueprintEditorUtils_API.md"
+    ],
+    "technical_guides": [
+      "blueprint_technical_guide.md",
+      "UE_5_2_Documentation.md",
+      "02_Documentation_Index.md",
+      "01_FOLDER_CONTENTS.md"
+    ]
+  }
+}

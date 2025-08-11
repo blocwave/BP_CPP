@@ -1,0 +1,3 @@
+# [Custom Blueprint K2Node Creation: Node doesn't show up](https://forums.unrealengine.com/t/custom-blueprint-k2node-creation-node-doesnt-show-up/313714)
+
+I'm trying to create a custom blueprint node derivating from K2Node to use it in the blueprint graph editor, not just exposing a function as a custom blueprint ...

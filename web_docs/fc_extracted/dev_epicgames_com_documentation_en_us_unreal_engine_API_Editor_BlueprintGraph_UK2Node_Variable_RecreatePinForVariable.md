@@ -1,0 +1,3 @@
+# [RecreatePinForVariable | Unreal Engine 5.6 Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Editor/BlueprintGraph/UK2Node_Variable/RecreatePinForVariable)
+
+Creates a reader or writer pin for a variable from an old pin. true if it succeeds, false if it fails. Parameters. Name, Description. Direction ...
