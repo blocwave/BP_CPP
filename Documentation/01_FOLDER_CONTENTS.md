@@ -156,7 +156,7 @@ This folder contains comprehensive documentation for the Unreal Engine Blueprint
 - Migration considerations and version-specific features
 - Community resources and related documentation
 
-## Subdirectory
+## Subdirectories
 
 ### fc_extracted/ (44 files)
 - Contains source documentation files from Epic Games API docs
@@ -164,11 +164,83 @@ This folder contains comprehensive documentation for the Unreal Engine Blueprint
 - Blog posts and third-party documentation
 - These files were used as source material for the documentation above
 
+### source_evals/ (91 files)
+- **Comprehensive Blueprint system analysis documentation**
+- Deep technical evaluations of Blueprint compilation and runtime systems
+- Detailed analysis of all major Blueprint node types and their C++ conversion patterns
+
+#### Key Summary Documents:
+- **01_MASTER_SUMMARY_Blueprint_System_Analysis.md** - Master consolidation of entire Blueprint system architecture
+- **02_FINAL_ANALYSIS_Blueprint_to_CPP_Requirements.md** - Complete requirements for 100% Blueprint to C++ conversion
+
+#### System Analysis Categories:
+- **Compilation Pipeline** (11 files) - KismetCompiler, VM backend, bytecode generation
+- **Node Implementations** (15+ files) - All K2Node types with implementation details
+- **Execution Flow** (5 files) - Statement generation, function contexts, linear code generation
+- **Graph Structure** (7 files) - Node connections, pins, graph infrastructure
+- **Component System** (4 files) - SCS nodes, construction scripts, component hierarchy
+- **Debug System** (6 files) - Breakpoints, instrumentation, profiling, visual logger
+- **Default Values** (5 files) - Primitive, container, complex type default value resolution
+- **Delegates & Interfaces** (4 files) - Event dispatchers, dynamic delegates, interface implementation
+- **Edge Cases** (6 files) - Hot reload, circular references, orphaned pins, world context
+- **Testing Framework** (7 files) - Compilation validation, runtime equivalence, test generation
+- **Validation Systems** (5 files) - Schema validation, automation testing, Blueprint editor utilities
+- **Special Nodes** (8 files) - Timeline, spawn actor, dynamic cast, macro expansion
+- **Property Systems** (4 files) - UPROPERTY generation, metadata, replication
+
+## Content Overlap and Connections
+
+### Documentation Hierarchy
+- **ref_docs/ (high-level)**: API references, usage guides, and developer-focused documentation
+- **source_evals/ (low-level)**: Direct source code analysis, implementation details, C++ conversion patterns
+
+### Key Overlaps and Complementary Coverage
+
+#### Compilation System
+- **High-level docs**: `blueprint_compiler_overview.md`, `KismetCompiler_Pipeline_Overview.md`, `FKismetCompilerContext_API.md`
+- **Source analysis**: `KismetCompiler.md`, `KismetCompilerVMBackend.md`, `Execution_Flow_*` files
+- **Connection**: High-level docs provide API usage; source_evals provide actual implementation patterns
+
+#### Node System
+- **High-level docs**: `UK2Node_API.md`, `UK2Node_CallFunction_API.md`, `UK2Node_Event_API.md`, `UK2Node_Variable_API.md`
+- **Source analysis**: `K2Node_*.md` files with deep implementation details for each node type
+- **Connection**: API docs show class interfaces; source_evals show exact C++ generation patterns
+
+#### Graph Infrastructure
+- **High-level docs**: `UEdGraph_API.md`, `UEdGraphNode_API.md`, `UEdGraphPin.md`, `UEdGraphSchema_K2_API.md`
+- **Source analysis**: `Graph_Structure_*.md`, `EdGraph_Core_Infrastructure.md`, `EdGraphPin_Connection_Serialization.md`
+- **Connection**: API docs explain usage; source_evals reveal internal data structures and serialization
+
+#### Blueprint Runtime
+- **High-level docs**: `UBlueprintGeneratedClass_API.md`, `UBlueprint_API.md`
+- **Source analysis**: `BlueprintGeneratedClass_Runtime_Analysis.md`, `Blueprint_Runtime_System_Summary.md`, `UBlueprint_Class_Structure.md`
+- **Connection**: API docs for developers; source_evals for runtime behavior and memory layout
+
+#### Construction Scripts
+- **High-level docs**: `USimpleConstructionScript.md`, `USCS_Node.md`
+- **Source analysis**: `Component_SimpleConstructionScript.md`, `Component_SCSNode.md`, `Blueprint_Component_Hierarchy_System.md`
+- **Connection**: API usage vs. component instantiation patterns
+
+#### Compilation Context
+- **High-level docs**: `FKismetFunctionContext_API.md`, `FKismetCompiledStatement_API.md`
+- **Source analysis**: `Execution_Flow_FKismetFunctionContext.md`, `Execution_Flow_FBlueprintCompiledStatement.md`
+- **Connection**: API reference vs. bytecode generation specifics
+
+### Unique Coverage in source_evals/
+- **Edge Cases**: Hot reload, circular references, orphaned pins (no high-level equivalent)
+- **Default Values System**: Complete type resolution patterns (minimal in high-level docs)
+- **Debug System**: Breakpoints, profiling, instrumentation (not covered in API docs)
+- **Testing Framework**: Validation and runtime equivalence testing (implementation-specific)
+- **Delegates/Interfaces**: Dynamic binding patterns (deeper than API docs)
+- **Property System**: UPROPERTY macro generation, metadata handling (source-level details)
+
 ## Summary
 
-- **Total Documentation Files**: 25 .md files
+- **Total Documentation Files**: 25 .md files in root
+- **Source Analysis Files**: 91 files in source_evals/
+- **Source Material**: 44 files in fc_extracted/
 - **New Files Created**: 8 (marked with *NEW*)
-- **Coverage**: Complete documentation for all major Blueprint API classes
-- **Source Files**: 44 files in fc_extracted/ subdirectory
+- **Coverage**: Complete documentation for all major Blueprint API classes plus comprehensive system analysis
+- **Relationship**: High-level API docs (ref_docs) provide developer interfaces; low-level analysis (source_evals) provides implementation details for C++ conversion
 
-The documentation provides comprehensive coverage of the Unreal Engine Blueprint system, from high-level architecture to detailed API references, with practical examples and community-sourced solutions.
+The documentation provides complete coverage of the Unreal Engine Blueprint system, from high-level architecture to detailed API references, with practical examples, community-sourced solutions, and exhaustive technical analysis for Blueprint to C++ conversion.
